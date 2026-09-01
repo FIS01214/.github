@@ -44,14 +44,18 @@ copiando para as células vazias o código que for gerado, revisado e executado.
 
 Um fluxo simples para trabalhar sem instalar nada localmente:
 
-1. Abra o repositório da sua tarefa no GitHub.
-2. Use **Code → Download ZIP**.
-3. Faça upload do `.zip` no Google Colab.
-4. Antes de começar a análise, peça ao agente que gere o código para:
-   - descompactar o arquivo `.zip`;
+1. Abra o repositório da sua tarefa no GitHub e use **Code → Download ZIP**.
+2. Baixe também o notebook indicado pelo professor.
+3. Abra o notebook no Google Colab e, no painel **Arquivos**, faça upload do
+   `.ipynb` e do `.zip` no mesmo ambiente de execução; o ZIP será o arquivo de
+   dados usado pelo notebook.
+4. Antes de começar a análise, peça ao agente que gere e execute código para:
+   - localizar e descompactar o arquivo `.zip`;
    - entrar na pasta extraída;
-   - confirmar que `data/sinal.lhe.gz` e `data/fundo.lhe.gz` existem.
-5. Abra o notebook indicado pelo professor e siga as instruções.
+   - inflar com `gzip` `data/sinal.lhe.gz` e `data/fundo.lhe.gz`, criando
+     `data/sinal.lhe` e `data/fundo.lhe` sem apagar os originais;
+   - confirmar a presença das quatro versões na pasta `data/`.
+5. Execute as etapas do notebook a partir da pasta extraída.
 
 Os notebooks têm uma seção inicial `0. Preparação no Google Colab` para lembrar
 esse passo.
