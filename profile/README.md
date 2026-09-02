@@ -29,6 +29,13 @@ Cada estudante ou grupo recebe um repositório público de tarefa:
 - [tarefa9](https://github.com/FIS01214/tarefa9)
 - [tarefa10](https://github.com/FIS01214/tarefa10)
 
+Para consultar uma análise completa já preparada, veja os repositórios-exemplo:
+
+- [analise-colab](https://github.com/FIS01214/analise-colab): notebook para
+  execução no Google Colab;
+- [analise-swan](https://github.com/FIS01214/analise-swan): notebook para
+  execução no CERN SWAN, com verificação das dependências.
+
 Dentro de cada repositório há:
 
 - amostras `data/sinal.lhe.gz` e `data/fundo.lhe.gz`;
@@ -39,6 +46,10 @@ Dentro de cada repositório há:
 Os repositórios de tarefa não incluem notebooks de referência. Eles foram
 preparados para que o estudante escreva a análise com apoio de um agente de IA,
 copiando para as células vazias o código que for gerado, revisado e executado.
+
+Os repositórios-exemplo têm finalidade diferente: apresentam o notebook
+consolidado DataFrame completo, com as amostras de Higgs e outputs executados
+quando disponíveis, para demonstrar o fluxo ponta a ponta.
 
 ## Uso no Google Colab
 
