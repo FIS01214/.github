@@ -139,3 +139,19 @@ O repositório privado `template` mantém a versão completa do material:
 
 Os repositórios públicos `tarefa*` são versões reduzidas e independentes,
 contendo apenas o necessário para os estudantes.
+
+## Ciclo de manutenção e planejamento
+
+O trabalho de manutenção é organizado por milestones nos repositórios de apoio:
+
+- `template`: **Template 2026 — Notebooks e análise** e **Template 2026 —
+  Governança e manutenção**;
+- `geracao-amostras`: **Geração 2026 — Validação física**;
+- `.github`: **Organização 2026 — Exemplo e distribuição** e **Organização
+  2026 — Automação de tarefas**.
+
+As issues abertas são associadas à milestone correspondente e permanecem
+auditáveis. Os repositórios `tarefa*` não recebem milestones próprias enquanto
+forem apenas entregas distribuídas aos estudantes e não tiverem backlog de
+manutenção; essa decisão será revisada a cada semestre. Uma milestone só deve
+ser encerrada quando não houver issues ou pull requests abertos associados.
